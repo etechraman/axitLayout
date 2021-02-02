@@ -1,7 +1,5 @@
 <template>
-  <!-- <v-card class="overflow-hidden"> -->
   <v-main fluid>
-    <!-- <template v-slot:activator="{on}"> -->
     <v-navigation-drawer v-model="sidebar" app absolute disableResizeWatcher>
       <v-list>
         <v-list-item v-for="(item, index) in menuItems" :key="index">
@@ -9,7 +7,6 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <!-- </template> -->
 
     <v-app-bar class="topbar" permanent color="black" app>
       <v-img
@@ -39,7 +36,6 @@
     </v-app-bar>
   </v-main>
 
-  <!-- </v-card> -->
 </template>
 <script>
 export default {

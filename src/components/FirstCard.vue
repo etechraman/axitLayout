@@ -1,5 +1,4 @@
 <template>
-  <!-- <v-container fluid> -->
   <div class="">
     <div cols="12">
       <v-card>
@@ -131,7 +130,6 @@
       </v-card>
     </div>
   </div>
-  <!-- </v-container> -->
 </template>
 <script>
 import { validationMixin } from "vuelidate";
@@ -270,10 +268,7 @@ export default {
   text-align: center;
 }
 .first-card--left-section {
-  margin-top: 12.1%;
-  /* margin-top: 220px; */
-  /* margin-left: 11%; */
-  /* margin-left: 200px; */
+  margin-top: 12.1%
 }
 .first-card--logo {
   margin-bottom: 70px;
@@ -317,11 +312,7 @@ export default {
   color: rgba(134, 135, 139, 255);
   text-align: left;
 }
-.first-card--social-media-toolbar--right-section {
-  /* margin-right: 11%;
-  margin-left: 10%;
-  width: 45%; */
-}
+
 
 @media only screen and (min-width: 1300px) {
   .first-card--social-media-toolbar--right-section {
