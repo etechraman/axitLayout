@@ -1,28 +1,49 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <Topbar />
+    <FirstCard />
+    <Features />
+    <SubList />
+    <PictureSection />
+    <Awesome />
+    <Pricing />
+    <Testimonials />
+    <ContactUs />
+    <Footer />
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Topbar from "./components/Topbar";
+import FirstCard from "./components/FirstCard";
+import Features from "./components/Features";
+import SubList from "./components/SubList";
+import PictureSection from "./components/PictureSection.vue";
+import Awesome from "./components/Awesome.vue";
+import Pricing from "./components/Pricing.vue";
+import Testimonials from "./components/Testimonials.vue";
+import ContactUs from "./components/ContactUs.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  name: "App",
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  components: {
+    Topbar,
+    FirstCard,
+    Features,
+    SubList,
+    PictureSection,
+    Awesome,
+    Pricing,
+    Testimonials,
+    ContactUs,
+    Footer,
+  },
+
+  data() {
+    return {
+    };
+  },
+};
+</script>
