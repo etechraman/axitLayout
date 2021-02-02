@@ -1,15 +1,15 @@
 <template>
   <v-app>
-    <Topbar v-if="false" />
-    <FirstCard v-if="false" />
-    <Features v-if="false" />
-    <SubList v-if="false" />
-    <PictureSection v-if="false" />
-    <Awesome v-if="false" />
-    <Pricing v-if="false" />
-    <Testimonials v-if="true" />
-    <ContactUs v-if="false" />
-    <Footer v-if="false" />
+    <Topbar />
+    <FirstCard />
+    <Features />
+    <SubList />
+    <PictureSection />
+    <Awesome />
+    <Pricing />
+    <Testimonials />
+    <ContactUs />
+    <Footer />
   </v-app>
 </template>
 
