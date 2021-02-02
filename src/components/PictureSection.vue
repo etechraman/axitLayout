@@ -1,10 +1,10 @@
 <template>
-  <div class="picture-section pa-4 pa-sm-16 pa-md-16 pa-lg-16 ">
-    <v-row class="pa-4 pa-sm-16 pa-md-16 pa-lg-16 d-flex flex-column-reverse flex-sm-column-reverse flex-md-column-reverse flex-lg-row">
+  <div class="picture-section pa-4 pa-sm-16">
+    <v-row class="pa-4 pa-sm-16 d-flex flex-column-reverse flex-lg-row">
       <v-col class="py-10" cols="12" sm="12" md="12" lg="6">
         <div class="picture-section--content mx-lg-16 px-lg-16">
           <div
-            class="picture-section--content-title px-lg-12 text-left text-sm-left text-md-center text-lg-left"
+            class="picture-section--content-title px-lg-12 text-left text-md-center text-lg-left"
           >
             Standard Picture Section
           </div>

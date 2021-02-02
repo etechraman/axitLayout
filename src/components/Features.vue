@@ -1,6 +1,6 @@
 <template>
   <div
-    class="features pa-12 d-flex flex-column-reverse flex-sm-column-reverse flex-lg-row"
+    class="features pa-12 d-flex flex-column-reverse flex-lg-row"
   >
     <div class="features--buttons pa-16 mt-2">
       <v-row>
@@ -26,7 +26,7 @@
         </v-col>
       </v-row>
     </div>
-    <div class="features--content mx-0 mx-lg-16 mx-md-16 mx-sm-16 mt-4 pt-16">
+    <div class="features--content mx-0 mx-sm-16 mt-4 pt-16">
       <v-row>
         <v-col cols="12" sm="12" md="12" lg="10">
           <div class="features--content-title">

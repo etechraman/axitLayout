@@ -1,6 +1,6 @@
 <template>
-  <div class="sublist-section pa-4 pa-sm-16 pa-md-16 pa-lg-16 ">
-    <v-row class="pa-4 pa-sm-16 pa-md-16 pa-lg-16 ">
+  <div class="sublist-section pa-4 pa-sm-16 ">
+    <v-row class="pa-4 pa-sm-16">
       <v-col class="py-10" cols="12" sm="12" md="12" lg="6">
         <v-card flat class="transparent">
           <v-img src="../assets/images/sub-list-image.png" aspect-ratio="1.4"></v-img>
@@ -9,7 +9,7 @@
       <v-col class="py-10" cols="12" sm="12" md="12" lg="6">
         <div class="sublist-section--content mx-lg-16 px-lg-16">
           <div
-            class="sublist-section--content-title px-lg-12 text-left text-sm-left text-md-center text-lg-left"
+            class="sublist-section--content-title px-lg-12 text-left text-md-center text-lg-left"
           >
             Sub list section
           </div>

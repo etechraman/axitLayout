@@ -6,7 +6,7 @@
           <v-card-actions>
             <div
               width="100"
-              class="first-card--content d-flex justify-space-between flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row "
+              class="first-card--content d-flex justify-space-between flex-column flex-md-row"
             >
               <div class="first-card--left-section">
                 <div class="first-card--logo">
@@ -81,7 +81,7 @@
 
         <v-card-text>
           <div
-            class="pl-xs-0 pl-sm-0 first-card--social-media-toolbar d-flex justify-space-between flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row "
+            class="pl-xs-0 pl-sm-0 first-card--social-media-toolbar d-flex justify-space-between flex-column flex-md-row"
           >
             <div
               class=" d-flex flex-column justify  first-card--social-media-toolbar--left-section"

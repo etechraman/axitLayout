@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <div class="contact--contactUs--form pa-6 pa-sm-6 pa-md-6 pa-lg-12">
+    <div class="contact--contactUs--form pa-6 pa-lg-12">
       <form>
         <v-container>
           <v-row>
@@ -28,7 +28,7 @@
               md="10"
               sm="10"
               lg="5"
-              class="mx-xs-0 mx-sm-0 mx-md-0 mx-lg-6"
+              class="mx-0 mx-lg-6"
             >
               <v-text-field label="Name" required></v-text-field>
               <v-text-field label="Email" required></v-text-field>
@@ -39,7 +39,7 @@
               md="10"
               sm="10"
               lg="5"
-              class="mx-xs-0 mx-sm-0 mx-md-0 mx-lg-6"
+              class="mx-0 mx-lg-6"
             >
               <v-textarea class="mt-2" label="Message" rows="6"></v-textarea>
             </v-col>

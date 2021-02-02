@@ -5,9 +5,9 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </div>
     <div class="pricing-options--cards">
-      <v-row class="pa-0 pa-sm-16 pa-md-16 pa-lg-16 mx-0 mx-sm-0 mx-lg-16">
+      <v-row class="pa-0 pa-sm-16 mx-0 mx-lg-16">
         <v-col
-          class="px-2 px-sm-16 px-md-16 px-lg-8"
+          class="px-2 px-sm-16 px-lg-8"
           cols="12"
           sm="12"
           md="6"
@@ -58,7 +58,7 @@
           </v-card>
         </v-col>
         <v-col
-          class="px-2 px-sm-16 px-md-16 px-lg-8"
+          class="px-2 px-sm-16 px-lg-8"
           cols="12"
           sm="12"
           md="6"
@@ -109,7 +109,7 @@
           </v-card>
         </v-col>
         <v-col
-          class="px-2 px-sm-16 px-md-16 px-lg-8"
+          class="px-2 px-sm-16 px-lg-8"
           cols="12"
           sm="12"
           md="6"

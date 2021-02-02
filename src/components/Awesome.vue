@@ -1,5 +1,5 @@
 <template>
-  <div class="awesome--main pa-0 pa-sm-16 pa-md-16 pa-lg-16">
+  <div class="awesome--main pa-0 pa-sm-16">
     <v-row class="pa-12">
       <v-col cols="12">
         <div class="awesome--title">WHY THIS IS AWESOME</div>
