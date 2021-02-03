@@ -2,12 +2,30 @@
   <div class="awesome--main pa-0 pa-sm-16">
     <v-row class="pa-12">
       <v-col cols="12">
-        <div class="awesome--title">WHY THIS IS AWESOME</div>
+        <div class="awesome--title">
+          WHY THIS IS AWESOME
+          <v-img
+            class="my-8"
+            style="left:48%"
+            src="../assets/images/standard-picture-title-divider.png"
+            width="64px"
+          >
+          </v-img>
+        </div>
+
         <div class="awesome--subtitle pt-10">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </div>
       </v-col>
-      <v-col class="mt-8" cols="12" md="6" sm="12" lg="4"   v-for="(item, index) in cardsData" :key="index">
+      <v-col
+        class="mt-8"
+        cols="12"
+        md="6"
+        sm="12"
+        lg="4"
+        v-for="(item, index) in cardsData"
+        :key="index"
+      >
         <v-card flat>
           <v-card-actions class="d-flex justify-center"
             ><v-avatar size="70">

@@ -1,25 +1,23 @@
 <template>
-  <div
-    class="features pa-12 d-flex flex-column-reverse flex-lg-row"
-  >
+  <div class="features py-12 d-flex flex-column-reverse flex-lg-row">
     <div class="features--buttons pa-16 mt-2">
       <v-row>
         <v-col cols="12" class="d-flex flex-column flex-sm-row flex-lg-column">
           <v-btn
             @click="activeTabNo = '1'"
-            class="features--buttons-tab px-9 py-13"
+            class="features--buttons-tab px-9 "
             v-bind:color="activeTabNo === '1' ? '#ff8b38' : 'black'"
             >TAB1</v-btn
           >
           <v-btn
             @click="activeTabNo = '2'"
-            class="features--buttons-tab px-9 py-13"
+            class="features--buttons-tab tab2 px-9 "
             v-bind:color="activeTabNo === '2' ? '#ff8b38' : 'black'"
             >TAB2</v-btn
           >
           <v-btn
             @click="activeTabNo = '3'"
-            class="features--buttons-tab px-9 py-13"
+            class="features--buttons-tab px-9 "
             v-bind:color="activeTabNo === '3' ? '#ff8b38' : 'black'"
             >TAB3</v-btn
           >
@@ -48,7 +46,7 @@
           </div>
         </v-col>
         <v-col cols="12" sm="12" md="12" lg="10">
-          <div class="features--content-button my-16">
+          <div class="features--content-button my-16 mt-13">
             <v-btn class="features--content-button-download">Download</v-btn>
           </div>
         </v-col>
@@ -80,8 +78,11 @@ export default {
 <style>
 .features {
   background-color: #f5f5f5;
+  padding-inline: 7.6% !important;
 }
 .features--buttons-tab {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
   box-shadow: none !important;
   /* background-color: #333333 !important; */
   font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular !important;
@@ -103,6 +104,9 @@ export default {
   color: rgba(0, 0, 0, 255);
   text-align: left;
 }
+.features--content-description {
+  margin-top: 40px;
+}
 .features--content-description p {
   font-family: OpenSans, AdobeInvisFont, MyriadPro-Regular;
   font-size: 14pt;
@@ -116,6 +120,8 @@ export default {
   font-size: 17px !important;
   color: rgba(255, 255, 255, 255) !important;
   text-align: left !important;
+  text-transform: capitalize !important;
+  padding: 0px 25px !important;
 }
 .features--content-button-download:hover {
   background-color: black !important;
@@ -123,6 +129,22 @@ export default {
 @media only screen and (max-width: 1264px) {
   .features--content {
     width: auto;
+  }
+}
+@media only screen and (min-width: 960px) {
+  .features {
+    padding-inline: 3.6% !important;
+  }
+}
+@media only screen and (min-width: 1264px) {
+  .tab2 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .features {
+    padding-inline: 7.6% !important;
   }
 }
 </style>

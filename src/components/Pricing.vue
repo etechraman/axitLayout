@@ -1,18 +1,21 @@
 <template>
   <div class="pricing-options">
-    <div class="pricing-options--title">PRICING OPTIONS</div>
+    <div class="pricing-options--title">
+      PRICING OPTIONS
+      <v-img
+        class="my-8"
+        style="left:48%"
+        src="../assets/images/standard-picture-title-divider.png"
+        width="64px"
+      >
+      </v-img>
+    </div>
     <div class="pricing-options--subtitle my-8">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </div>
     <div class="pricing-options--cards">
       <v-row class="pa-0 pa-sm-16 mx-0 mx-lg-16">
-        <v-col
-          class="px-2 px-sm-16 px-lg-8"
-          cols="12"
-          sm="12"
-          md="6"
-          lg="4"
-        >
+        <v-col class="px-2 px-sm-16 px-lg-8" cols="12" sm="12" md="6" lg="4">
           <v-card>
             <v-card-actions class="pa-0 d-flex justify-center flex-column">
               <div class="pricing-options--card-heading">
@@ -57,13 +60,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col
-          class="px-2 px-sm-16 px-lg-8"
-          cols="12"
-          sm="12"
-          md="6"
-          lg="4"
-        >
+        <v-col class="px-2 px-sm-16 px-lg-8" cols="12" sm="12" md="6" lg="4">
           <v-card>
             <v-card-actions class="pa-0 d-flex justify-center flex-column">
               <div class="pricing-options--card-heading">
@@ -108,13 +105,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col
-          class="px-2 px-sm-16 px-lg-8"
-          cols="12"
-          sm="12"
-          md="6"
-          lg="4"
-        >
+        <v-col class="px-2 px-sm-16 px-lg-8" cols="12" sm="12" md="6" lg="4">
           <v-card>
             <v-card-actions class="pa-0 d-flex justify-center flex-column">
               <div class="pricing-options--card-heading">

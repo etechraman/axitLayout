@@ -1,18 +1,21 @@
 <template>
   <div class="testimonials">
-    <div class="testimonials--title">WHAT OUR CUSTOMERS ARE SAYING</div>
+    <div class="testimonials--title">
+      WHAT OUR CUSTOMERS ARE SAYING
+      <v-img
+        class="my-8"
+        style="left:48%"
+        src="../assets/images/standard-picture-title-divider.png"
+        width="64px"
+      >
+      </v-img>
+    </div>
     <div class="testimonials--subtitle my-8">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </div>
     <div class="testimonials--cards">
       <v-row class="pa-0 pa-sm-16 mx-0 mx-lg-16">
-        <v-col
-          class="px-2 px-sm-16"
-          cols="12"
-          sm="12"
-          md="6"
-          lg="4"
-        >
+        <v-col class="px-2 px-sm-16" cols="12" sm="12" md="6" lg="4">
           <v-card flat>
             <v-img src="../assets/images/Composed-layer@1X.png"></v-img>
             <v-card-title
@@ -25,13 +28,7 @@
             </v-card-title>
           </v-card>
         </v-col>
-        <v-col
-          class="px-2 px-sm-16"
-          cols="12"
-          sm="12"
-          md="6"
-          lg="4"
-        >
+        <v-col class="px-2 px-sm-16" cols="12" sm="12" md="6" lg="4">
           <v-card flat>
             <v-img src="../assets/images/Composed-layer@1X.png"></v-img>
             <v-card-title
@@ -44,13 +41,7 @@
             </v-card-title>
           </v-card>
         </v-col>
-        <v-col
-          class="px-2 px-sm-16"
-          cols="12"
-          sm="12"
-          md="6"
-          lg="4"
-        >
+        <v-col class="px-2 px-sm-16" cols="12" sm="12" md="6" lg="4">
           <v-card flat>
             <v-img src="../assets/images/Composed-layer@1X.png"></v-img>
             <v-card-title

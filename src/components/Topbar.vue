@@ -19,7 +19,7 @@
       </v-img>
       <v-spacer></v-spacer>
 
-      <div class="d-flex justify-space-between topbar-right">
+      <div class="d-flex justify-center topbar-right">
         <v-btn
           v-for="(item, index) in menuItems"
           :key="index"
@@ -35,7 +35,6 @@
       </span>
     </v-app-bar>
   </v-main>
-
 </template>
 <script>
 export default {
@@ -61,7 +60,8 @@ export default {
 }
 .topbar-right {
   width: 50%;
-  margin-right: 8%;
+  /* margin-right: 8%; */
+  margin-right: 4.5%;
 }
 .topbar-button {
   font-family: OpenSans-Semibold, AdobeInvisFont, MyriadPro-Regular !important;
@@ -69,4 +69,15 @@ export default {
   color: rgba(255, 255, 255, 255) !important;
   text-align: right !important;
 }
+@media only screen and (min-width: 960px) {
+  .topbar-logo {
+  margin-left: 7%;
+}
+}
+@media only screen and (min-width: 1500px) {
+  .topbar-logo {
+  margin-left: 11%;
+}
+}
+
 </style>
