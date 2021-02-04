@@ -1,5 +1,5 @@
 <template>
-  <div class="pricing-options">
+  <div class="pricing-options py-16">
     <div class="pricing-options--title">
       PRICING OPTIONS
       <v-img
@@ -15,7 +15,7 @@
     </div>
     <div class="pricing-options--cards">
       <v-row class="pa-0 pa-sm-16 mx-0 mx-lg-16">
-        <v-col class="px-2 px-sm-16 px-lg-8" cols="12" sm="12" md="6" lg="4">
+        <v-col class="px-2 px-sm-16 px-lg-8 mt-12" cols="12" sm="12" md="6" lg="4">
           <v-card>
             <v-card-actions class="pa-0 d-flex justify-center flex-column">
               <div class="pricing-options--card-heading">
@@ -105,7 +105,7 @@
             </v-card-text>
           </v-card>
         </v-col>
-        <v-col class="px-2 px-sm-16 px-lg-8" cols="12" sm="12" md="6" lg="4">
+        <v-col class="px-2 px-sm-16 px-lg-8 mt-12" cols="12" sm="12" md="6" lg="4">
           <v-card>
             <v-card-actions class="pa-0 d-flex justify-center flex-column">
               <div class="pricing-options--card-heading">

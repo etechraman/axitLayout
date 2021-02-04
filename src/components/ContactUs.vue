@@ -2,11 +2,11 @@
   <div>
     <v-card>
       <v-img
-        aspect-ratio="5.36"
+        aspect-ratio="5.1"
         src="../assets/images/stylish-design.png"
         gradient="rgba(0,0,0,0.5),rgba(0,0,0,0.4)"
       >
-        <v-card-actions class="justify-center flex-column pa-4">
+        <v-card-actions class="justify-center flex-column pa-4 py-16">
           <div class="contact--card-title">STYLISH AXURE DESIGN</div>
           <v-img
             class="my-6"
@@ -14,7 +14,7 @@
             width="74px"
           >
           </v-img>
-          <div class="contact--card-subtitle mt-12">
+          <div class="contact--card-subtitle mt-4">
             Use the sections you need, remove the ones you don't. Create
             gorgeous prototypes faster than ever!
           </div>
@@ -29,7 +29,7 @@
         </v-card-actions>
       </v-img>
     </v-card>
-    <div class="contact--contactUs d-flex justify-center flex-column">
+    <div class="contact--contactUs d-flex justify-center flex-column py-12">
       <div class="contact--contactUs--title">
         CONTACT US
         <v-img
@@ -55,7 +55,7 @@
               <v-text-field label="Subject" required></v-text-field>
             </v-col>
             <v-col cols="10" md="10" sm="10" lg="5" class="mx-0 mx-lg-6">
-              <v-textarea class="mt-2" label="Message" rows="6"></v-textarea>
+              <v-textarea label="Message" rows="7"></v-textarea>
             </v-col>
           </v-row>
         </v-container>

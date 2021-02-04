@@ -11,7 +11,7 @@
           <v-card-actions>
             <div
               width="100"
-              class="first-card--content d-flex justify-space-between flex-column flex-md-row"
+              class="first-card--content d-flex justify-space-between flex-column flex-md-row pb-16 pb-md-0"
             >
               <div class="first-card--left-section">
                 <div class="first-card--logo">

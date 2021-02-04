@@ -23,7 +23,7 @@
           </v-img>
           </div>
           
-          <div class="sublist-section--content-description pl-lg-12">
+          <div class="sublist-section--content-description pl-lg-12 mb-13">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet. Proin gravida dolor sit amet lacus

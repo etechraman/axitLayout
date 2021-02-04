@@ -13,7 +13,7 @@
           </v-img>
         </div>
 
-        <div class="awesome--subtitle pt-10">
+        <div class="awesome--subtitle">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </div>
       </v-col>

@@ -1,5 +1,5 @@
 <template>
-  <div class="testimonials">
+  <div class="testimonials py-16">
     <div class="testimonials--title">
       WHAT OUR CUSTOMERS ARE SAYING
       <v-img

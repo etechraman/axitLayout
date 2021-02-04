@@ -1,6 +1,6 @@
 <template>
   <v-main fluid>
-    <v-navigation-drawer v-model="sidebar" app absolute disableResizeWatcher>
+    <v-navigation-drawer v-model="sidebar" app  disableResizeWatcher>
       <v-list>
         <v-list-item v-for="(item, index) in menuItems" :key="index">
           <v-list-item-content>{{ item.button }}</v-list-item-content>
