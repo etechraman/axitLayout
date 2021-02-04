@@ -2,11 +2,16 @@
   <div class="">
     <div cols="12">
       <v-card>
-        <v-img aspect-ratio="1.5" src="../assets/images/firstCard.png">
+        <v-img
+          class="firstCardImagePng"
+          aspect-ratio="1.5"
+          src="../assets/images/firstCard.png"
+          gradient="rgba(0,0,0,0.5),rgba(0,0,0,0.9)"
+        >
           <v-card-actions>
             <div
               width="100"
-              class="first-card--content d-flex justify-space-between flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row "
+              class="first-card--content d-flex justify-space-between flex-column flex-md-row pb-16 pb-md-0"
             >
               <div class="first-card--left-section">
                 <div class="first-card--logo">
@@ -21,6 +26,11 @@
                     FOR BEAUTIFUL PROTOTYPES
                   </p>
                 </div>
+                <v-img
+                  style="margin-bottom:45px"
+                  src="../assets/images/firstCardContentDivider.png"
+                  width="96px"
+                ></v-img>
                 <div class="first-card--description">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -31,19 +41,21 @@
                   </p>
                 </div>
                 <div class="first-card--download">
-                  <v-btn class="white--text" tile>Download</v-btn>
+                  <v-btn class="white--text first-card--download-button" tile
+                    >Download</v-btn
+                  >
                 </div>
               </div>
               <div class="first-card--right-section">
-                <div class="first-card--form">
-                  <div class="first-card--form-header">
+                <div class="first-card--form rounded">
+                  <div class="first-card--form-header rounded-t">
                     Try Your<a> FREE </a>Trial Today
                   </div>
                   <div class="first-card--form-input">
                     <form>
                       <v-container>
                         <v-row>
-                          <v-col cols="12">
+                          <v-col cols="12" class="pt-6">
                             <v-text-field
                               label="Name"
                               required
@@ -61,7 +73,7 @@
                               @blur="$v.email.$touch()"
                             ></v-text-field>
                           </v-col>
-                          <v-col cols="12">
+                          <v-col cols="12" class="pb-11">
                             <v-text-field
                               v-model="password"
                               label="Password"
@@ -72,7 +84,7 @@
                       </v-container>
                     </form>
                   </div>
-                  <div class="first-card--form-button">Get Started</div>
+                  <div class="first-card--form-button rounded-b">Get Started</div>
                 </div>
               </div>
             </div>
@@ -81,7 +93,7 @@
 
         <v-card-text>
           <div
-            class="pl-xs-0 pl-sm-0 first-card--social-media-toolbar d-flex justify-space-between flex-column flex-sm-column flex-md-row flex-lg-row flex-xl-row "
+            class="pl-xs-0 pl-sm-0 first-card--social-media-toolbar d-flex justify-space-between flex-column flex-md-row"
           >
             <div
               class=" d-flex flex-column justify  first-card--social-media-toolbar--left-section"
@@ -220,6 +232,10 @@ export default {
 };
 </script>
 <style>
+.firstCardImagePng {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+}
 .first-card--content {
   width: 100%;
   padding-inline: 11%;
@@ -231,13 +247,13 @@ export default {
 
 .first-card--form {
   margin-left: 0%;
-  /* width: 74%; */
+  width: 74%;
   padding-top: 0%;
   background-color: white;
 }
 .first-card--form-header {
   font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 25pt;
+  font-size: 18pt;
   color: rgba(51, 51, 51, 255);
   text-align: left;
 
@@ -250,13 +266,24 @@ export default {
 }
 .first-card--form-header a {
   font-family: OpenSans-Bold, AdobeInvisFont, MyriadPro-Regular;
-  font-size: 25pt;
+  font-size: 18pt;
   color: #ff8b38 !important;
   text-align: left;
 }
 .first-card--form-input {
   padding-left: 7%;
   padding-right: 9%;
+}
+.v-text-field__slot {
+  margin-bottom: 10px;
+}
+.v-text-field__slot label {
+  left: 9px !important;
+  font-size: larger;
+  color: #cfcfcf !important;
+}
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+  border-color: #d6d6d6 !important;
 }
 .first-card--form-button {
   background-color: #ff9b51;
@@ -268,13 +295,13 @@ export default {
   text-align: center;
 }
 .first-card--left-section {
-  margin-top: 12.1%
+  margin-top: 12.1%;
 }
 .first-card--logo {
   margin-bottom: 70px;
 }
 .first-card--title {
-  margin-bottom: 135px;
+  /* margin-bottom: 135px; */
 }
 .first-card--title p {
   font-family: Raleway, AdobeInvisFont, MyriadPro-Regular;
@@ -283,7 +310,7 @@ export default {
   text-align: left;
 }
 .first-card--description {
-  margin-bottom: 95px;
+  margin-bottom: 75px;
 }
 .first-card--description p {
   font-family: Raleway-Light, AdobeInvisFont, MyriadPro-Regular;
@@ -291,9 +318,13 @@ export default {
   color: rgba(255, 255, 255, 255);
   text-align: left;
 }
-.first-card--download button {
+
+.first-card--download-button {
   background-color: transparent !important;
-  border: 1px #f5f5f5 solid;
+  border: 3px #f5f5f5 solid;
+  padding: 14px 32px !important;
+  height: auto !important;
+  text-transform: capitalize !important;
 }
 .first-card--social-media-toolbar--left-section {
   margin-left: 10.6% !important;
@@ -313,10 +344,58 @@ export default {
   text-align: left;
 }
 
+@media only screen and (min-width: 325px) {
+  .first-card--form {
+    width: 100%;
+  }
+}
 
+@media only screen and (min-width: 960px) {
+  .first-card--content {
+    padding-left: 7%;
+    padding-right: 2%;
+  }
+  .first-card--title p {
+    font-size: 29pt;
+  }
+  .first-card--description p {
+    font-size: 12pt;
+  }
+  .first-card--right-section {
+    position: absolute;
+    left: 63%;
+  }
+  .first-card--form {
+    width: 90%;
+  }
+  .first-card--social-media-toolbar--left-section {
+  margin-left: 7% !important;
+}
+}
 @media only screen and (min-width: 1300px) {
   .first-card--social-media-toolbar--right-section {
     width: 100%;
   }
+}
+@media only screen and (min-width: 1500px) {
+  .first-card--content {
+    padding-inline: 11%;
+  }
+  .first-card--title p {
+    font-size: 36pt;
+  }
+  .first-card--description p {
+    font-size: 16pt;
+  }
+  .first-card--right-section {
+    position: absolute;
+    left: 60%;
+  }
+  .first-card--form {
+    width: 65%;
+  }
+  .first-card--social-media-toolbar--left-section {
+  margin-left: 10.6% !important;
+}
 }
 </style>
